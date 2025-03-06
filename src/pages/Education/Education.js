@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import { Header, ExperienceCard } from "../../components";
-import involvementsData from "../../data/Involvements.json";
-import styles from "./Involvements.module.css";
+import { Header, EducationCard } from "../../components";
+import educationData from "../../data/Education.json";
+import styles from "./Education.module.css";
 
-const Involvements = () => {
+const Education = () => {
   return (
     <React.Fragment>
-      <Header title="Involvements" />
+      <Header title="Education" />
       <Container fluid className={styles.container}>
         <Row
           style={{
@@ -16,8 +16,8 @@ const Involvements = () => {
             alignItems: "center",
           }}
         >
-          {involvementsData.map((obj, index) => (
-            <ExperienceCard
+          {educationData.map((obj, index) => (
+            <EducationCard
               key={index}
               title={obj.title}
               organization={obj.organization}
@@ -26,7 +26,7 @@ const Involvements = () => {
               description={obj.description}
               logo={obj.logo}
               techStack={obj.techStack}
-              variant="success"
+              variant="danger"
             />
           ))}
         </Row>
@@ -35,4 +35,4 @@ const Involvements = () => {
   );
 };
 
-export default Involvements;
+export default Education;

@@ -1,3 +1,6 @@
+// Patrick
+export { default as UOW } from "./organizations/webp/uow-logo.webp";
+
 // Organization Assets
 export { default as CICSLogo } from "./organizations/webp/cics-logo.webp";
 export { default as FallbackCICSLogo } from "./organizations/jpg/cics-logo.jpg";

@@ -16,7 +16,7 @@ const NavigationBar = (props) => {
     >
       <Container fluid>
         <Navbar.Brand style={{ color: "white", fontWeight: "500" }}>
-          Aditya Vikram Singh
+          Welcome to portfolio page of Patrick Zhiji Yu
         </Navbar.Brand>
         <Navbar.Toggle
           className="ms-auto"
@@ -40,6 +40,17 @@ const NavigationBar = (props) => {
               Home
             </Nav.Link>
             <Nav.Link
+              eventKey="education"
+              className={
+                props.currentTab === "education"
+                  ? styles.activeLink
+                  : styles.inactiveLink
+              }
+            >
+              Education
+            </Nav.Link>
+
+            {/* <Nav.Link
               eventKey="experience"
               className={
                 props.currentTab === "experience"
@@ -48,17 +59,19 @@ const NavigationBar = (props) => {
               }
             >
               Experience
-            </Nav.Link>
+            </Nav.Link> */}
+
             <Nav.Link
-              eventKey="involvements"
+              eventKey="involvement"
               className={
-                props.currentTab === "involvements"
+                props.currentTab === "involvement"
                   ? styles.activeLink
                   : styles.inactiveLink
               }
             >
-              Involvements
+              Involvement
             </Nav.Link>
+
             <Nav.Link
               eventKey="projects"
               className={
@@ -69,6 +82,7 @@ const NavigationBar = (props) => {
             >
               Projects
             </Nav.Link>
+
             {/* <Nav.Link
               eventKey="achievements"
               className={
