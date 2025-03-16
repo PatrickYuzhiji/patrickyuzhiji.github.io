@@ -1,9 +1,13 @@
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 28em;
-  max-width: 90vw;
+  height: 28em;
   padding: 2em;
   margin: 0.5em;
+  text-align: center;
 }
 
 .button {
@@ -19,4 +23,5 @@
   max-width: 100%;
   max-height: 12em;
   width: auto;
+  display: block;
 }

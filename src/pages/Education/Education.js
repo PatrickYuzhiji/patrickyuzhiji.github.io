@@ -18,7 +18,6 @@ const Education = () => {
         >
           {educationData.map((obj, index) => (
             <EducationCard
-              key={index}
               title={obj.title}
               organization={obj.organization}
               liveUrl={obj.liveUrl}

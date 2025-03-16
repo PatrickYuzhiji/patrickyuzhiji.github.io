@@ -1,5 +1,14 @@
-// Patrick
+// Patrick Organizations
 export { default as UOW } from "./organizations/webp/uow-logo.webp";
+export { default as CQU } from "./organizations/webp/CQU-logo.webp";
+export { default as SFSP } from "./organizations/webp/SFSP-logo.webp";
+export { default as SAIEP } from "./organizations/webp/saiep-logo.webp";
+
+// Patrick projects
+export { default as SwellApp } from "./projects/webp/SwellApp-logo.webp";
+export { default as BadgerChat } from "./projects/webp/BadgerChat.webp";
+export { default as EasyParking } from "./projects/webp/EasyParking.webp";
+export { default as GiphySearch } from "./projects/webp/GiphySearch.webp";
 
 // Organization Assets
 export { default as CICSLogo } from "./organizations/webp/cics-logo.webp";

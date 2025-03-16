@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Card, Modal } from "react-bootstrap";
-
+import { ImageHolder } from "..";
+import * as Asset from "../../assets";
 import {
   SiNestjs,
   SiMysql,
@@ -41,7 +42,7 @@ import {
   SiAdobephotoshop,
   SiBlender,
 } from "react-icons/si";
-import styles from "./ExperienceCard.module.css";
+import styles from "./InvolvementCard.module.css";
 
 const icons = {
   AdobeIllustrator: (
@@ -108,14 +109,20 @@ const icons = {
   ),
 };
 
-const ExperienceCard = (props) => {
+const InvolvementCard = (props) => {
   const [modalDisplay, setModalDisplay] = useState(false);
 
   const handleModalOpen = () => setModalDisplay(true);
   const handleModalClose = () => setModalDisplay(false);
+  const logoValue = props.logo;
 
   return (
     <Card className={styles.container}>
+      <ImageHolder
+        primarySource={Asset[logoValue]}
+        alt="Please update your browser to view this image"
+        className={`card-img ${styles.image}`}
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
@@ -178,4 +185,4 @@ const ExperienceCard = (props) => {
   );
 };
 
-export default ExperienceCard;
+export default InvolvementCard;

@@ -1,75 +1,44 @@
-import React from "react";
-import { Card, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Card, Button, Modal } from "react-bootstrap";
 import { ImageHolder } from "..";
 import * as Asset from "../../assets";
-import { SiNestjs, SiMysql, SiFlutter, SiBootstrap, SiReact, SiHtml5, SiCss3, SiFirebase, SiFlask, SiNumpy, SiPython, SiPytorch } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { FaAws } from "react-icons/fa";
+import {
+  SiNestjs,
+  SiMysql,
+  SiFlutter,
+  SiBootstrap,
+  SiReact,
+  SiHtml5,
+  SiCss3,
+  SiFirebase,
+  SiFlask,
+  SiNumpy,
+  SiPython,
+  SiPytorch,
+  SiExpo,
+  SiOnnx,
+  SiVite,
+  SiFastapi,
+  SiPostman,
+  SiJavascript,
+  SiJquery,
+  SiDocker,
+  SiSqlalchemy,
+  SiServerless,
+  SiAxios,
+} from "react-icons/si";
 import styles from "./ProjectCard.module.css";
-
-const assets = {
-  "Perpetual Crusades": (
-    <ImageHolder
-      primarySource={Asset.PerpetualCrusades}
-      secondarySource={Asset.FallbackPerpetualCrusades}
-      alt="Perpetual Crusades"
-      className="card-img"
-    />
-  ),
-  "Project URefer": (
-    <ImageHolder
-      primarySource={Asset.ProjectURefer}
-      secondarySource={Asset.FallbackProjectURefer}
-      alt="Project URefer"
-      className="card-img"
-    />
-  ),
-  "HackUMass Website": (
-    <ImageHolder
-      primarySource={Asset.HackUMassWebsite}
-      secondarySource={Asset.FallbackHackUMassWebsite}
-      alt="HackUMass Website"
-      className="card-img"
-    />
-  ),
-  "Foliage": (
-    <ImageHolder
-      primarySource={Asset.Foliage}
-      secondarySource={Asset.FallbackFoliage}
-      alt="Foliage"
-      className="card-img"
-    />
-  ),
-  "Cough Detector": (
-    <ImageHolder
-      primarySource={Asset.CoughDetector}
-      secondarySource={Asset.FallbackCoughDetector}
-      alt="Cough Detector"
-      className="card-img"
-    />
-  ),
-  "SpectralCNN": (
-    <ImageHolder
-      primarySource={Asset.SpectralCNN}
-      secondarySource={Asset.FallbackSpectralCNN}
-      alt="SpectralCNN"
-      className="card-img"
-    />
-  ),
-};
 
 const icons = {
   Bootstrap: (
     <SiBootstrap className={styles.icon} style={{ color: "#7952B3" }} />
   ),
   CSS: <SiCss3 className={styles.icon} style={{ color: "#1572B6" }} />,
-  Firebase: (
-    <SiFirebase className={styles.icon} style={{ color: "#FFCA28" }} />
-  ),
-  Flask: (
-    <SiFlask className={styles.icon} style={{ color: "#000000" }} />
-  ),
-  Flutter: (
-    <SiFlutter className={styles.icon} style={{ color: "#02569B" }} />
-  ),
+  Firebase: <SiFirebase className={styles.icon} style={{ color: "#FFCA28" }} />,
+  Flask: <SiFlask className={styles.icon} style={{ color: "#000000" }} />,
+  Flutter: <SiFlutter className={styles.icon} style={{ color: "#02569B" }} />,
   HTML: <SiHtml5 className={styles.icon} style={{ color: "#E34F26" }} />,
   MySQL: <SiMysql className={styles.icon} style={{ color: "#4479A1" }} />,
   NestJS: <SiNestjs className={styles.icon} style={{ color: "#E0234E" }} />,
@@ -77,12 +46,41 @@ const icons = {
   Python: <SiPython className={styles.icon} style={{ color: "#3776AB" }} />,
   PyTorch: <SiPytorch className={styles.icon} style={{ color: "#EE4C2C" }} />,
   React: <SiReact className={styles.icon} style={{ color: "#61DAFB" }} />,
+  ReactNative: (
+    <TbBrandReactNative className={styles.icon} style={{ color: "#61DAFB" }} />
+  ),
+  Expo: <SiExpo className={styles.icon} style={{ color: "#000020" }} />,
+  ONNX: <SiOnnx className={styles.icon} style={{ color: "#FBCE00" }} />,
+  Vite: <SiVite className={styles.icon} style={{ color: "#646CFF" }} />,
+  FastAPI: <SiFastapi className={styles.icon} style={{ color: "#009688" }} />,
+  Postman: <SiPostman className={styles.icon} style={{ color: "#FF6C37" }} />,
+  JavaScript: (
+    <SiJavascript className={styles.icon} style={{ color: "#F7DF1E" }} />
+  ),
+  jQuery: <SiJquery className={styles.icon} style={{ color: "#0769AD" }} />,
+  Docker: <SiDocker className={styles.icon} style={{ color: "#2496ED" }} />,
+  SQLAlchemy: (
+    <SiSqlalchemy className={styles.icon} style={{ color: "#FCA121" }} />
+  ),
+  Serverless: (
+    <SiServerless className={styles.icon} style={{ color: "#FD5750" }} />
+  ),
+  Axios: <SiAxios className={styles.icon} style={{ color: "#0076BE" }} />,
+  AWS: <FaAws className={styles.icon} style={{ color: "#FF9900" }} />,
 };
 
 const ProjectCard = (props) => {
+  const [modalDisplay, setModalDisplay] = useState(false);
+  const handleModalOpen = () => setModalDisplay(true);
+  const handleModalClose = () => setModalDisplay(false);
+
   return (
     <Card className={styles.container}>
-      {assets[props.title]}
+      <ImageHolder
+        primarySource={Asset[props.logo]}
+        alt="Please update your browser to view this image"
+        className={`card-img ${styles.image}`}
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
@@ -99,6 +97,7 @@ const ProjectCard = (props) => {
             View Live
           </Button>
         ) : null}
+
         {props.gitHubUrl ? (
           <Button
             className={styles.button}
@@ -108,6 +107,41 @@ const ProjectCard = (props) => {
           >
             View on GitHub
           </Button>
+        ) : null}
+
+        {props.description ? (
+          <React.Fragment>
+            <Button
+              className={styles.button}
+              variant="secondary"
+              onClick={handleModalOpen}
+            >
+              View Description
+            </Button>
+            <Modal
+              centered
+              size="lg"
+              show={modalDisplay}
+              onHide={handleModalClose}
+            >
+              <Modal.Header closeButton>
+                <Modal.Title style={{ textAlign: "center", width: "100%" }}>
+                  {props.title}
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <div style={{ textAlign: "start" }}>
+                  <h4>{props.content}</h4>
+                </div>
+                <h5>Description:</h5>
+                <ul>
+                  {props.description.map((elem) => (
+                    <li>{elem}</li>
+                  ))}
+                </ul>
+              </Modal.Body>
+            </Modal>
+          </React.Fragment>
         ) : null}
       </Card.Body>
     </Card>

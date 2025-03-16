@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import { Header, ExperienceCard } from "../../components";
-import involvementData from "../../data/Involvement.json";
+import { Header, InvolvementCard } from "../../components";
+import InvolvementData from "../../data/Involvement.json";
 import styles from "./Involvement.module.css";
 
 const Involvement = () => {
@@ -16,8 +16,8 @@ const Involvement = () => {
             alignItems: "center",
           }}
         >
-          {involvementData.map((obj, index) => (
-            <ExperienceCard
+          {InvolvementData.map((obj, index) => (
+            <InvolvementCard
               key={index}
               title={obj.title}
               organization={obj.organization}
@@ -26,7 +26,7 @@ const Involvement = () => {
               description={obj.description}
               logo={obj.logo}
               techStack={obj.techStack}
-              variant="success"
+              variant="danger"
             />
           ))}
         </Row>

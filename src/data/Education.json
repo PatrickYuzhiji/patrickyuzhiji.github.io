@@ -4,6 +4,34 @@
     "organization": "University of Wollongong",
     "duration": "July 2023 - June 2025",
     "liveUrl": "https://www.uow.edu.au/",
-    "logo": "UOW"
+    "logo": "UOW",
+    "description": [
+      "Current GPA: 6.8/7.0, High Distinction (HD) in 10 out of 12 subjects",
+      "Coursework: Big Data Management (97/100), Web Development (94/100)"
+    ]
+  },
+  {
+    "title": "Master of Civil Engineering",
+    "organization": "Chongqing University(QS World Rank 561)",
+    "liveUrl": "https://english.cqu.edu.cn/",
+    "logo": "CQU",
+    "description": [
+      "Tuition Fee Waiver Scholarship for academic excellence",
+      "Published an article in the China Civil Engineering Journal (indexed in EI Compendex)"
+    ]
+  },
+  {
+    "title": "Bachelor of Civil Engineering",
+    "organization": "Chongqing University(QS World Rank 561)",
+    "liveUrl": "https://english.cqu.edu.cn/",
+    "logo": "CQU",
+    "description": [
+      "GPA: 3.57/4.00",
+      "National Inspirational Scholarship",
+      "Outstanding Student of Chongqing University Top5%",
+      "College General Scholarship (Four times in total)",
+      "College Academic Scholarship A",
+      "Outstanding Graduate, Outstanding Capstone Project"
+    ]
   }
 ]

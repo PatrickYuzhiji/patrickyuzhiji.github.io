@@ -24,6 +24,8 @@ const Projects = () => {
               gitHubUrl={obj.gitHubUrl}
               liveUrl={obj.liveUrl}
               techStack={obj.techStack}
+              description={obj.description}
+              logo={obj.logo}
             />
           ))}
         </Row>

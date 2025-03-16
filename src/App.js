@@ -7,6 +7,7 @@ const Projects = lazy(() => import("./pages/Projects/Projects"));
 // const Experience = lazy(() => import("./pages/Experience/Experience"));
 const Education = lazy(() => import("./pages/Education/Education"));
 const Involvement = lazy(() => import("./pages/Involvement/Involvement"));
+
 // const Achievements = lazy(() => import("./pages/Achievements/Achievements"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 

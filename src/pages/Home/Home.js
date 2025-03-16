@@ -8,11 +8,7 @@ import {
 } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 import { ImageHolder, ProfileButton } from "../../components";
-import {
-  ProfessionalHeadshot,
-  FallbackProfessionalHeadshot,
-  HomeBackground,
-} from "../../assets";
+import { ProfessionalHeadshot, HomeBackground } from "../../assets";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -25,7 +21,6 @@ const Home = () => {
       <Row>
         <ImageHolder
           primarySource={ProfessionalHeadshot}
-          secondarySource={FallbackProfessionalHeadshot}
           alt="Professional Headshot of Patrick Zhiji Yu"
           className={styles.professionalHeadshot}
         />
