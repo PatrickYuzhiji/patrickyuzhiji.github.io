@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e0026c56.css",
-    "main.js": "/static/js/main.bfa45eea.js",
+    "main.js": "/static/js/main.3b10f3aa.js",
     "static/css/873.1f19077f.chunk.css": "/static/css/873.1f19077f.chunk.css",
     "static/js/873.b6f8d3d5.chunk.js": "/static/js/873.b6f8d3d5.chunk.js",
     "static/css/331.37cfef55.chunk.css": "/static/css/331.37cfef55.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/134.81953597.chunk.js": "/static/js/134.81953597.chunk.js",
     "static/css/579.4805bbe9.chunk.css": "/static/css/579.4805bbe9.chunk.css",
     "static/js/579.420f9b8c.chunk.js": "/static/js/579.420f9b8c.chunk.js",
-    "static/media/background.webp": "/static/media/background.b7170d30ed47633d4cd5.webp",
+    "static/media/background.webp": "/static/media/background.0849e8dfd587f2782442.webp",
     "static/media/spectral-cnn.jpg": "/static/media/spectral-cnn.0a01b94af7bb529fb554.jpg",
     "static/media/GiphySearch.webp": "/static/media/GiphySearch.6c4206b9a5fa290e8676.webp",
     "static/media/perpetual-crusades.jpg": "/static/media/perpetual-crusades.afc69c1bf50a272f7d1f.jpg",
@@ -61,7 +61,7 @@
     "static/media/hackumass-logo.webp": "/static/media/hackumass-logo.a009cf35367925cce368.webp",
     "static/media/build-logo.webp": "/static/media/build-logo.9ec0c99fc26ad99f931c.webp",
     "main.e0026c56.css.map": "/static/css/main.e0026c56.css.map",
-    "main.bfa45eea.js.map": "/static/js/main.bfa45eea.js.map",
+    "main.3b10f3aa.js.map": "/static/js/main.3b10f3aa.js.map",
     "873.1f19077f.chunk.css.map": "/static/css/873.1f19077f.chunk.css.map",
     "873.b6f8d3d5.chunk.js.map": "/static/js/873.b6f8d3d5.chunk.js.map",
     "331.37cfef55.chunk.css.map": "/static/css/331.37cfef55.chunk.css.map",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.e0026c56.css",
-    "static/js/main.bfa45eea.js"
+    "static/js/main.3b10f3aa.js"
   ]
 }
