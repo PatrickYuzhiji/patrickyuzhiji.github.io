@@ -6,6 +6,7 @@ import {
   FaGithubSquare,
   FaFileDownload,
 } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { Container, Row, Col } from "react-bootstrap";
 import { ImageHolder, ProfileButton } from "../../components";
 import { ProfessionalHeadshot, HomeBackground } from "../../assets";
@@ -68,6 +69,16 @@ const Home = () => {
             <FaYoutubeSquare className={styles.icon} />
           </a>
         </Col> */}
+      </Row>
+      <Row>
+        <Col>
+          <ProfileButton
+            logo={<MdEmail className={styles.iconSmall} />}
+            href="mailto:hi@patrickyu.work"
+          >
+            hi@patrickyu.work
+          </ProfileButton>
+        </Col>
       </Row>
       <Row>
         <Col>
