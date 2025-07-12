@@ -28,6 +28,13 @@ import {
   SiSqlalchemy,
   SiServerless,
   SiAxios,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiSanity,
+  SiResend,
+  SiVercel,
+  SiPostgresql,
 } from "react-icons/si";
 import styles from "./ProjectCard.module.css";
 
@@ -67,6 +74,19 @@ const icons = {
   ),
   Axios: <SiAxios className={styles.icon} style={{ color: "#0076BE" }} />,
   AWS: <FaAws className={styles.icon} style={{ color: "#FF9900" }} />,
+  NextJS: <SiNextdotjs className={styles.icon} style={{ color: "#61DAFB" }} />,
+  TypeScript: (
+    <SiTypescript className={styles.icon} style={{ color: "#007ACC" }} />
+  ),
+  TailwindCSS: (
+    <SiTailwindcss className={styles.icon} style={{ color: "#38BDF8" }} />
+  ),
+  SanityCMS: <SiSanity className={styles.icon} style={{ color: "#222222" }} />,
+  Resend: <SiResend className={styles.icon} style={{ color: "#0769AD" }} />,
+  Vercel: <SiVercel className={styles.icon} style={{ color: "#FCA121" }} />,
+  PostgreSQL: (
+    <SiPostgresql className={styles.icon} style={{ color: "#336791" }} />
+  ),
 };
 
 const ProjectCard = (props) => {

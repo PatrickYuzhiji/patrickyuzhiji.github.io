@@ -1,5 +1,41 @@
 [
   {
+    "title": "SLACA - Student Lifestyle and Academic Convenience Aid (Mobile App)",
+    "content": "As a team of 5, we developed SLACA, a smart and student-centric platform that integrates academic resources, community interaction, and an AI-powered assistant to enhance university life. The project was awarded High Distinction (HD) as a capstone submission.",
+    "logo": "SLACA",
+    "liveUrl": "https://youtu.be/BfHOfMSaIE0/",
+    "description": [
+      "Designed and built a modular full-stack application using FastAPI for backend services and React-based frontend modules for seamless student interaction",
+      "Implemented LLM-powered chatbot enhanced with Retrieval-Augmented Generation (RAG) to deliver contextual, evolving responses based on user-generated content",
+      "Developed key modules including Circle (community posts), Study (course/program explorer), Media (event updates), Vendor (student deals), and Me (profile and contribution tracking)",
+      "Integrated gamification through point-based participation rewards, enhancing student engagement within communities",
+      "Collaborated within a 5-person interdisciplinary team and received supervision from Prof. Lei Wang, achieving High Distinction for innovation and impact"
+    ],
+    "techStack": ["FastAPI", "React", "PostgreSQL", "Python", "TypeScript"]
+  },
+  {
+    "title": "IT Tech - Antenna, Security & IT Support Website",
+    "content": "A real-world paid project developed independently for a digital agency. Delivered a modern full-stack Next.js website for an IT support company, featuring services such as antenna installation, security systems, and technical support. Implemented automated email systems, CMS-powered blogging, and advanced SEO optimization.",
+    "logo": "ITTechWebsite",
+    "liveUrl": "https://antenna-1gcp.vercel.app/",
+    "gitHubUrl": "https://github.com/PatrickYuzhiji/antenna",
+    "description": [
+      "Built a mobile-first, responsive user interface using Next.js 15 and Tailwind CSS 4.0, with reusable TypeScript-based components and accessible, branded design",
+      "Integrated Resend for dual automated email workflows, sending structured admin notifications and customer confirmations with custom React email templates",
+      "Implemented Sanity CMS for headless blog management with rich content editing, author management, image optimization, and live content preview",
+      "Optimized for SEO with structured data, dynamic sitemaps, robots.txt, Open Graph metadata, and local business schema targeting Wollongong area",
+      "Deployed on Vercel with Turbopack for fast builds, supporting real-time updates on GitHub push with zero downtime"
+    ],
+    "techStack": [
+      "NextJS",
+      "TypeScript",
+      "TailwindCSS",
+      "SanityCMS",
+      "Resend",
+      "Vercel"
+    ]
+  },
+  {
     "title": "Soil Swell Potential Prediction(Cross-platform Mobile App)",
     "content": "Designed and developed a cross-platform mobile application to predict the swelling potential of expansive soils, accelerating initial decision-making by reducing reliance on time-consuming lab tests.",
     "liveUrl": "https://youtube.com/shorts/z3A3B9INcyg?feature=share",

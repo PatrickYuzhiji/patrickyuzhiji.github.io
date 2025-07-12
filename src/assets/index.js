@@ -9,6 +9,8 @@ export { default as SwellApp } from "./projects/webp/SwellApp-logo.webp";
 export { default as BadgerChat } from "./projects/webp/BadgerChat.webp";
 export { default as EasyParking } from "./projects/webp/EasyParking.webp";
 export { default as GiphySearch } from "./projects/webp/GiphySearch.webp";
+export { default as ITTechWebsite } from "./projects/webp/ITTechWebsite.webp";
+export { default as SLACA } from "./projects/webp/SLACA.webp";
 
 // Organization Assets
 export { default as CICSLogo } from "./organizations/webp/cics-logo.webp";
