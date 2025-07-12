@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.e0026c56.css",
-    "main.js": "/static/js/main.51c4a111.js",
+    "main.js": "/static/js/main.edbc6119.js",
     "static/css/935.49b749f2.chunk.css": "/static/css/935.49b749f2.chunk.css",
-    "static/js/935.4e7b5bce.chunk.js": "/static/js/935.4e7b5bce.chunk.js",
+    "static/js/935.80280f44.chunk.js": "/static/js/935.80280f44.chunk.js",
     "static/css/331.37cfef55.chunk.css": "/static/css/331.37cfef55.chunk.css",
-    "static/js/331.75322d6a.chunk.js": "/static/js/331.75322d6a.chunk.js",
+    "static/js/331.03e4170c.chunk.js": "/static/js/331.03e4170c.chunk.js",
     "static/css/988.bd64df75.chunk.css": "/static/css/988.bd64df75.chunk.css",
     "static/js/988.ddaa78a0.chunk.js": "/static/js/988.ddaa78a0.chunk.js",
     "static/css/134.68a160ff.chunk.css": "/static/css/134.68a160ff.chunk.css",
@@ -20,9 +20,11 @@
     "static/media/professional-headshot.jpg": "/static/media/professional-headshot.b2926bd48f6858c4512b.jpg",
     "static/media/background.jpg": "/static/media/background.22687e163f7b2a60d9e2.jpg",
     "static/media/spectral-cnn.webp": "/static/media/spectral-cnn.9c655776e8ff23044c0f.webp",
+    "static/media/ITTechWebsite.webp": "/static/media/ITTechWebsite.53f4eb33b6c63e87adba.webp",
     "static/media/cough-detector.jpg": "/static/media/cough-detector.b0570e56ab1ae608bd9d.jpg",
     "static/media/project-urefer.jpg": "/static/media/project-urefer.65c700d2f7e35ce24442.jpg",
     "static/media/professional-headshot.webp": "/static/media/professional-headshot.46c01fb09abc8cd2f059.webp",
+    "static/media/SLACA.webp": "/static/media/SLACA.1025a8c66358960df968.webp",
     "static/media/CQU-logo.webp": "/static/media/CQU-logo.2634f0224ae7bca52e53.webp",
     "static/media/foliage.jpg": "/static/media/foliage.05047682e95f7add7133.jpg",
     "static/media/project-urefer.webp": "/static/media/project-urefer.7fdbdee9312001153465.webp",
@@ -62,11 +64,11 @@
     "static/media/hackumass-logo.webp": "/static/media/hackumass-logo.a009cf35367925cce368.webp",
     "static/media/build-logo.webp": "/static/media/build-logo.9ec0c99fc26ad99f931c.webp",
     "main.e0026c56.css.map": "/static/css/main.e0026c56.css.map",
-    "main.51c4a111.js.map": "/static/js/main.51c4a111.js.map",
+    "main.edbc6119.js.map": "/static/js/main.edbc6119.js.map",
     "935.49b749f2.chunk.css.map": "/static/css/935.49b749f2.chunk.css.map",
-    "935.4e7b5bce.chunk.js.map": "/static/js/935.4e7b5bce.chunk.js.map",
+    "935.80280f44.chunk.js.map": "/static/js/935.80280f44.chunk.js.map",
     "331.37cfef55.chunk.css.map": "/static/css/331.37cfef55.chunk.css.map",
-    "331.75322d6a.chunk.js.map": "/static/js/331.75322d6a.chunk.js.map",
+    "331.03e4170c.chunk.js.map": "/static/js/331.03e4170c.chunk.js.map",
     "988.bd64df75.chunk.css.map": "/static/css/988.bd64df75.chunk.css.map",
     "988.ddaa78a0.chunk.js.map": "/static/js/988.ddaa78a0.chunk.js.map",
     "134.68a160ff.chunk.css.map": "/static/css/134.68a160ff.chunk.css.map",
@@ -77,6 +79,6 @@
   },
   "entrypoints": [
     "static/css/main.e0026c56.css",
-    "static/js/main.51c4a111.js"
+    "static/js/main.edbc6119.js"
   ]
 }
