@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.e0026c56.css",
-    "main.js": "/static/js/main.c113a463.js",
+    "main.js": "/static/js/main.8d75c493.js",
     "static/css/935.49b749f2.chunk.css": "/static/css/935.49b749f2.chunk.css",
     "static/js/935.10d114cf.chunk.js": "/static/js/935.10d114cf.chunk.js",
     "static/css/331.37cfef55.chunk.css": "/static/css/331.37cfef55.chunk.css",
-    "static/js/331.37e9cfac.chunk.js": "/static/js/331.37e9cfac.chunk.js",
+    "static/js/331.17f3808e.chunk.js": "/static/js/331.17f3808e.chunk.js",
     "static/css/988.bd64df75.chunk.css": "/static/css/988.bd64df75.chunk.css",
     "static/js/988.ddaa78a0.chunk.js": "/static/js/988.ddaa78a0.chunk.js",
     "static/css/134.68a160ff.chunk.css": "/static/css/134.68a160ff.chunk.css",
@@ -65,11 +65,11 @@
     "static/media/hackumass-logo.webp": "/static/media/hackumass-logo.a009cf35367925cce368.webp",
     "static/media/build-logo.webp": "/static/media/build-logo.9ec0c99fc26ad99f931c.webp",
     "main.e0026c56.css.map": "/static/css/main.e0026c56.css.map",
-    "main.c113a463.js.map": "/static/js/main.c113a463.js.map",
+    "main.8d75c493.js.map": "/static/js/main.8d75c493.js.map",
     "935.49b749f2.chunk.css.map": "/static/css/935.49b749f2.chunk.css.map",
     "935.10d114cf.chunk.js.map": "/static/js/935.10d114cf.chunk.js.map",
     "331.37cfef55.chunk.css.map": "/static/css/331.37cfef55.chunk.css.map",
-    "331.37e9cfac.chunk.js.map": "/static/js/331.37e9cfac.chunk.js.map",
+    "331.17f3808e.chunk.js.map": "/static/js/331.17f3808e.chunk.js.map",
     "988.bd64df75.chunk.css.map": "/static/css/988.bd64df75.chunk.css.map",
     "988.ddaa78a0.chunk.js.map": "/static/js/988.ddaa78a0.chunk.js.map",
     "134.68a160ff.chunk.css.map": "/static/css/134.68a160ff.chunk.css.map",
@@ -80,6 +80,6 @@
   },
   "entrypoints": [
     "static/css/main.e0026c56.css",
-    "static/js/main.c113a463.js"
+    "static/js/main.8d75c493.js"
   ]
 }
