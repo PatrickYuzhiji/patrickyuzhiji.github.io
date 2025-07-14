@@ -11,6 +11,7 @@ export { default as EasyParking } from "./projects/webp/EasyParking.webp";
 export { default as GiphySearch } from "./projects/webp/GiphySearch.webp";
 export { default as ITTechWebsite } from "./projects/webp/ITTechWebsite.webp";
 export { default as SLACA } from "./projects/webp/SLACA.webp";
+export { default as GradConnectionScraper } from "./projects/webp/GradConnectionScraper.webp";
 
 // Organization Assets
 export { default as CICSLogo } from "./organizations/webp/cics-logo.webp";
