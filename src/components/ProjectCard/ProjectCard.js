@@ -36,6 +36,7 @@ import {
   SiVercel,
   SiPostgresql,
   SiScrapy,
+  SiPhp,
 } from "react-icons/si";
 import styles from "./ProjectCard.module.css";
 
@@ -89,6 +90,7 @@ const icons = {
     <SiPostgresql className={styles.icon} style={{ color: "#336791" }} />
   ),
   Scrapy: <SiScrapy className={styles.icon} style={{ color: "#0076BE" }} />,
+  PHP: <SiPhp className={styles.icon} style={{ color: "#777BB4" }} />,
 };
 
 const ProjectCard = (props) => {
