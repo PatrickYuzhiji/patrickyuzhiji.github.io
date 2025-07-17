@@ -1,10 +1,11 @@
 export { default as NavigationBar } from "./NavigationBar/NavigationBar";
 export { default as ImageHolder } from "./ImageHolder/ImageHolder";
 export { default as Header } from "./Header/Header";
+export { default as HeaderProjects } from "./HeaderProjects/HeaderProjects";
 export { default as ProfileButton } from "./ProfileButton/ProfileButton";
 export { default as ProfileCard } from "./ProfileCard/ProfileCard";
 export { default as ProjectCard } from "./ProjectCard/ProjectCard";
-export { default as ExperienceCard } from "./ExperienceCard/ExperienceCard";
-export { default as AchievementCard } from "./AchievementCard/AchievementCard";
 export { default as EducationCard } from "./EducationCard/EducationCard";
 export { default as InvolvementCard } from "./InvolvementCard/InvolvementCard";
+export { default as AchievementCard } from "./AchievementCard/AchievementCard";
+export { default as ExperienceCard } from "./ExperienceCard/ExperienceCard";

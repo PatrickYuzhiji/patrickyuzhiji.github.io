@@ -1,0 +1,29 @@
+[
+  {
+    "title": "SLACA - Student Lifestyle and Academic Convenience Aid (Mobile App)",
+    "content": "As a team of 5, we developed SLACA, a smart and student-centric platform that integrates academic resources, community interaction, and an AI-powered assistant to enhance university life. The project was awarded High Distinction (HD) as a capstone submission.",
+    "logo": "SLACA",
+    "liveUrl": "https://youtu.be/BfHOfMSaIE0/",
+    "description": [
+      "Designed and built a modular full-stack application using FastAPI for backend services and React-based frontend modules for seamless student interaction",
+      "Implemented LLM-powered chatbot enhanced with Retrieval-Augmented Generation (RAG) to deliver contextual, evolving responses based on user-generated content",
+      "Developed key modules including Circle (community posts), Study (course/program explorer), Media (event updates), Vendor (student deals), and Me (profile and contribution tracking)",
+      "Integrated gamification through point-based participation rewards, enhancing student engagement within communities",
+      "Collaborated within a 5-person interdisciplinary team and received supervision from Prof. Lei Wang, achieving High Distinction for innovation and impact"
+    ],
+    "techStack": ["FastAPI", "React", "PostgreSQL", "Python", "TypeScript"]
+  },
+  {
+    "title": "Soil Swell Potential Prediction(Cross-platform Mobile App)",
+    "content": "Designed and developed a cross-platform mobile application to predict the swelling potential of expansive soils, accelerating initial decision-making by reducing reliance on time-consuming lab tests.",
+    "liveUrl": "https://youtube.com/shorts/z3A3B9INcyg?feature=share",
+    "logo": "SwellApp",
+    "description": [
+      "Built an intuitive user interface using React Native and Expo, incorporating AsyncStorage, FileSystem, and Sharing for efficient data storage and management",
+      "Integrated and deployed optimized machine learning models (ONNX) using onnxruntime-react-native, enabling real-time, offline predictions directly on mobile devices",
+      "Awarded a $6,000 scholarship through the UOW EIS Summer Scholarship Program in recognition of contributions to this innovative project",
+      "Note: Due to the proprietary nature of the project, the codebase is not publicly available"
+    ],
+    "techStack": ["ReactNative", "Expo", "ONNX"]
+  }
+]

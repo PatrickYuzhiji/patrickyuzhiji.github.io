@@ -36,9 +36,15 @@ const Home = () => {
       <Row>
         <Col>
           <span className={`${styles.textWhite} ${styles.headingThree}`}>
-            Technology-Driven Computer Science Student | Software Developer
-            experienced in Full-Stack Web and Mobile development | EIS Mentor |
-            Resident Ambassador
+            Software Developer experienced in AI Model Development
+          </span>
+          <br />
+          <span className={`${styles.textWhite} ${styles.headingThree}`}>
+            Full-Stack Web and Mobile development
+          </span>
+          <br />
+          <span className={`${styles.textWhite} ${styles.headingThree}`}>
+            EIS Mentor | Resident Ambassador
           </span>
         </Col>
       </Row>

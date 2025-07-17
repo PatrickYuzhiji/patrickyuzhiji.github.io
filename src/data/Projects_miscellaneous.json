@@ -1,0 +1,14 @@
+[
+  {
+    "title": "GradConnection Job Scraper",
+    "content": "Built a web crawler using the Scrapy framework to extract job listings from GradConnection Australia, specifically targeting computer science roles with support for customization and export formats.",
+    "logo": "GradConnectionScraper",
+    "gitHubUrl": "https://github.com/PatrickYuzhiji/GradConnection-Job-Scraper",
+    "description": [
+      "Developed a robust Scrapy-based crawler to collect and parse job listings including title, company, type, location, deadline, and direct link",
+      "Implemented pagination handling and flexible job category filtering through customizable start URLs for various disciplines",
+      "Structured data pipeline with modular components for items, pipelines, and custom middlewares"
+    ],
+    "techStack": ["Python", "Scrapy"]
+  }
+]

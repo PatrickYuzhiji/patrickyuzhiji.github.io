@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 1em;
+  background: #1488cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2b32b2,
+    #1488cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2b32b2,
+    #1488cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.headingOne {
+  font-family: "Lexend";
+  font-size: 3em;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+.navTabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.activeTab {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: #2b32b2 !important;
+  border: none !important;
+  border-radius: 25px !important;
+  padding: 0.5em 1.2em !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.inactiveTab {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 25px !important;
+  padding: 0.5em 1.2em !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+.inactiveTab:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .headingOne {
+    font-size: 2.2em;
+  }
+
+  .navTabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activeTab,
+  .inactiveTab {
+    margin-bottom: 0.5em;
+    width: 80%;
+    text-align: center;
+  }
+}

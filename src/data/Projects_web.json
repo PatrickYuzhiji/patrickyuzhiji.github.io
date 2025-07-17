@@ -1,19 +1,5 @@
 [
   {
-    "title": "SLACA - Student Lifestyle and Academic Convenience Aid (Mobile App)",
-    "content": "As a team of 5, we developed SLACA, a smart and student-centric platform that integrates academic resources, community interaction, and an AI-powered assistant to enhance university life. The project was awarded High Distinction (HD) as a capstone submission.",
-    "logo": "SLACA",
-    "liveUrl": "https://youtu.be/BfHOfMSaIE0/",
-    "description": [
-      "Designed and built a modular full-stack application using FastAPI for backend services and React-based frontend modules for seamless student interaction",
-      "Implemented LLM-powered chatbot enhanced with Retrieval-Augmented Generation (RAG) to deliver contextual, evolving responses based on user-generated content",
-      "Developed key modules including Circle (community posts), Study (course/program explorer), Media (event updates), Vendor (student deals), and Me (profile and contribution tracking)",
-      "Integrated gamification through point-based participation rewards, enhancing student engagement within communities",
-      "Collaborated within a 5-person interdisciplinary team and received supervision from Prof. Lei Wang, achieving High Distinction for innovation and impact"
-    ],
-    "techStack": ["FastAPI", "React", "PostgreSQL", "Python", "TypeScript"]
-  },
-  {
     "title": "IT Tech - Antenna, Security & IT Support Website",
     "content": "A real-world paid project developed independently for a digital agency. Delivered a modern full-stack Next.js website for an IT support company, featuring services such as antenna installation, security systems, and technical support. Implemented automated email systems, CMS-powered blogging, and advanced SEO optimization.",
     "logo": "ITTechWebsite",
@@ -49,45 +35,6 @@
       "Deployed application on InfinityFree free hosting platform with manual database setup and PHP environment configuration"
     ],
     "techStack": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
-  },
-  {
-    "title": "UK2007 Spam Detection Analysis",
-    "content": "A comprehensive document classification project focused on detecting web spam using the UK2007 benchmark dataset. Implemented multiple machine learning algorithms across three distinct feature sets (Direct, Link-based, and Content-based) and evaluated performance using AUC and cross-validation. Conducted extensive feature analysis and model comparison.",
-    "logo": "UK2007SpamDetection",
-    "gitHubUrl": "https://github.com/PatrickYuzhiji/datamining",
-    "description": [
-      "Analyzed three types of features — Direct, Link-based (transformed), and Content-based — to determine the best predictors of web spam",
-      "Applied machine learning models including Logistic Regression, Random Forest, and SVM using R and evaluated with cross-validation",
-      "Performed feature set combination analysis to test additive performance effects and ranked models using AUC as the primary metric",
-      "Automated full report generation with RMarkdown, including plots, tables, and ROC curves for each classifier-feature combination",
-      "Provided domain-specific discussion on spam detection strategies and summarized insights into feature importance and classifier behavior"
-    ],
-    "techStack": ["R", "RStudio", "Markdown"]
-  },
-  {
-    "title": "GradConnection Job Scraper",
-    "content": "Built a web crawler using the Scrapy framework to extract job listings from GradConnection Australia, specifically targeting computer science roles with support for customization and export formats.",
-    "logo": "GradConnectionScraper",
-    "gitHubUrl": "https://github.com/PatrickYuzhiji/GradConnection-Job-Scraper",
-    "description": [
-      "Developed a robust Scrapy-based crawler to collect and parse job listings including title, company, type, location, deadline, and direct link",
-      "Implemented pagination handling and flexible job category filtering through customizable start URLs for various disciplines",
-      "Structured data pipeline with modular components for items, pipelines, and custom middlewares"
-    ],
-    "techStack": ["Python", "Scrapy"]
-  },
-  {
-    "title": "Soil Swell Potential Prediction(Cross-platform Mobile App)",
-    "content": "Designed and developed a cross-platform mobile application to predict the swelling potential of expansive soils, accelerating initial decision-making by reducing reliance on time-consuming lab tests.",
-    "liveUrl": "https://youtube.com/shorts/z3A3B9INcyg?feature=share",
-    "logo": "SwellApp",
-    "description": [
-      "Built an intuitive user interface using React Native and Expo, incorporating AsyncStorage, FileSystem, and Sharing for efficient data storage and management",
-      "Integrated and deployed optimized machine learning models (ONNX) using onnxruntime-react-native, enabling real-time, offline predictions directly on mobile devices",
-      "Awarded a $6,000 scholarship through the UOW EIS Summer Scholarship Program in recognition of contributions to this innovative project",
-      "Note: Due to the proprietary nature of the project, the codebase is not publicly available"
-    ],
-    "techStack": ["ReactNative", "Expo", "ONNX"]
   },
   {
     "title": "BadgerChat(Frontend)",
