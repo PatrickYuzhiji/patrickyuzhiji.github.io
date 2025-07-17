@@ -48,7 +48,21 @@
       "Enabled auto-generation of database schema and sample data on first run, simplifying deployment across environments",
       "Deployed application on InfinityFree free hosting platform with manual database setup and PHP environment configuration"
     ],
-    "techStack": ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "InfinityFree"]
+    "techStack": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "UK2007 Spam Detection Analysis",
+    "content": "A comprehensive document classification project focused on detecting web spam using the UK2007 benchmark dataset. Implemented multiple machine learning algorithms across three distinct feature sets (Direct, Link-based, and Content-based) and evaluated performance using AUC and cross-validation. Conducted extensive feature analysis and model comparison.",
+    "logo": "UK2007SpamDetection",
+    "gitHubUrl": "https://github.com/PatrickYuzhiji/datamining",
+    "description": [
+      "Analyzed three types of features — Direct, Link-based (transformed), and Content-based — to determine the best predictors of web spam",
+      "Applied machine learning models including Logistic Regression, Random Forest, and SVM using R and evaluated with cross-validation",
+      "Performed feature set combination analysis to test additive performance effects and ranked models using AUC as the primary metric",
+      "Automated full report generation with RMarkdown, including plots, tables, and ROC curves for each classifier-feature combination",
+      "Provided domain-specific discussion on spam detection strategies and summarized insights into feature importance and classifier behavior"
+    ],
+    "techStack": ["R", "RStudio", "Markdown"]
   },
   {
     "title": "GradConnection Job Scraper",

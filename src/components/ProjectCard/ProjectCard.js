@@ -37,6 +37,9 @@ import {
   SiPostgresql,
   SiScrapy,
   SiPhp,
+  SiR,
+  SiRstudio,
+  SiMarkdown,
 } from "react-icons/si";
 import styles from "./ProjectCard.module.css";
 
@@ -91,6 +94,9 @@ const icons = {
   ),
   Scrapy: <SiScrapy className={styles.icon} style={{ color: "#0076BE" }} />,
   PHP: <SiPhp className={styles.icon} style={{ color: "#777BB4" }} />,
+  R: <SiR className={styles.icon} style={{ color: "#198CE7" }} />,
+  RStudio: <SiRstudio className={styles.icon} style={{ color: "#4285F4" }} />,
+  Markdown: <SiMarkdown className={styles.icon} style={{ color: "#336791" }} />,
 };
 
 const ProjectCard = (props) => {

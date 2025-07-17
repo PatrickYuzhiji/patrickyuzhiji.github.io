@@ -13,7 +13,7 @@ export { default as ITTechWebsite } from "./projects/webp/ITTechWebsite.webp";
 export { default as SLACA } from "./projects/webp/SLACA.webp";
 export { default as GradConnectionScraper } from "./projects/webp/GradConnectionScraper.webp";
 export { default as EasyEV } from "./projects/webp/EasyEV.webp";
-
+export { default as UK2007SpamDetection } from "./projects/webp/UK2007SpamDetection.webp";
 // Organization Assets
 export { default as CICSLogo } from "./organizations/webp/cics-logo.webp";
 export { default as FallbackCICSLogo } from "./organizations/jpg/cics-logo.jpg";
